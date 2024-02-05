@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           
+            background: linear-gradient(120deg,rgb(157, 151, 148),rgb(60, 45, 45));
+        }
+        #btn{
+            background-color: rgb(59, 233, 59);
+            text-align: center;
+            padding: 6px 25px;
+            border: none;
+            border-radius: 2px;
+        }
+        input{
+            padding: 5px 15px;
+        }
+        .top{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 30px;
+            color: white;
+            background:linear-gradient(135deg,rgb(247, 32, 32),orange);
+        }
+        form{
+            font-size: 20px;
+            font-weight: bold;
+            width: 600px;
+            position: absolute;
+            top: 240px;
+        }
+        legend{
+            font-size: 10px;
+            font-weight:2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <h2>MVJ COLLEGE OF ENGINEERING</h2>
+        <h3>APPLICATION FORM 2023-24</h3>
+    </div>
+   
+    <form id="form">
+        <fieldset >
+            <legend>STUDENT ADMISSION FORM</legend>
+            <label> First Name:
+                <br>
+                <input type="text" id="f">
+            </label>
+            <br>
+            <br>
+            <br>
+            <label> Last Name:
+                <br>
+                <input type="text" id="l">
+            </label>
+            <br>
+            <br>
+            <br>
+            <label> Phone Number:
+                <br>
+                <input type="tel" id="p">
+            </label>
+            <br>
+            <br>
+            <br>
+            <label> Email:
+                <br>
+                <input type="email" id="e">
+            </label>
+            <br>
+            <br>
+            <br>
+            <label> Date of Birth:
+                <br>
+                <input type="date" id="D">
+            </label>
+            <br>
+            <br>
+            <br>
+            <label> Address:
+                <br>
+                <textarea type="text" id="A"></textarea>
+            </label>
+            <br>
+            <br>
+            <br>
+            <label> Gender:
+                <br>
+                <input type="radio" id="m">Male
+                <br>
+                <input type="radio" id="fm">Female
+            </label>
+            <br>
+            <br>
+            <br>
+            <label>Select Your Branch of interest:</label>
+            <br>
+            <select>
+                <option>--SELECT--</option>
+                <option>CSE</option>
+                <option>ECE</option>
+                <option>EEE</option>
+                <option>AE</option>
+                <option>CSD</option>
+                <option>AIML</option>
+                <option>ISE</option>
+                <option>CIVIL</option>
+                <option>IOT</option>
+                <option>ME</option>
+            </select>
+            <br>
+            <br>
+            <button type="submit" id="btn">Submit</button>
+            <br>
+        </fieldset>
+    </form>
+</body>
+
+</html>

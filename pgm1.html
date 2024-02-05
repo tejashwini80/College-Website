@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pgm1.css">
+    <style>
+        
+        #bar{
+            
+            height: 60px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .bar{
+           
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+            display: flex;
+            justify-content:flex-end;
+            align-items: center;
+            color: white;
+        }
+        #home{
+        
+            border-radius: 20px 0px 20px 0px;
+            background-color:orangered;
+            color: white;
+
+        }
+        #container{
+            width: 600px;
+        }
+        video{
+            width: 100%;
+            height: auto;
+           
+        }
+
+
+        
+        video:hover{
+           background-color: transparent;
+           border: 1px solid orange;
+           transform: scale(0.8);
+           animation: vid 2s ease-in-out 1s infinite normal ;
+           display: flex;
+           justify-content: center;
+}
+        
+        .img1{
+            width: 100%;
+            position: absolute;
+            background-size: contain;
+        }
+        
+    </style>
+
+</head>
+<body>
+   <div class="nav">
+    <div id="img" class="nav">
+        <img  alt="mvj" src="logo.jpeg" height="70px" width="100px" style="padding-left: 0;">
+    </div>
+    <div class="bar" id="container" width="500px">
+        <a id="home" class="bar" href="home.html">Home</a>
+        <a id="placement" class="bar" href="placement.html">Placement</a>
+        <a id="Admission" class="bar" href="form.html">Admission</a>
+        <a id="achieve" class="bar" href="achieve.html" >Achievements</a>
+        <a id="contact" class="bar" href="contact.html" style="font-weight: bold;">Contact </a>
+    </div>
+   <!-- <div >
+        <select id="Select" value="Branch">
+            <option value="">Branch</option>
+            <option value="">CSE</option>
+            <option value="">ECE</option>
+            <option value="">ISE</option>
+            <option value="">EEE</option>
+            <option value="">CV</option>
+            <option value="">AE</option>
+        </select>
+        
+
+    </div>
+    -->
+   </div>
+
+   <h2 style="color: red;">WELCOME TO MVJ COLLEGE OF ENGINEERING BANGLORE</h2>
+
+   <video src="mvj vd.mp4" autoplay muted></video>
+   
+   
+
+
+
+</div>
+<footer >
+    <div class="foot1" style="background-color: orangered; height: 100px ; width: 100% ;padding: 20px;text-align: center; animation:coloranimate 2s ease-in 0s infinite normal ;" >
+        <h5>THANK YOU</h5>
+        <H6>Visit again..!!</H6>
+    </div>
+    <div class="img1">
+        <img src="bottom.png" style="width: 100%; animation: ease-in 2s  0s infinite ;">
+    </div>
+
+</footer>
+</body>
+</html>
